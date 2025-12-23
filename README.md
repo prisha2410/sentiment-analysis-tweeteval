@@ -175,21 +175,7 @@ pip install -r requirements.txt
 python comparative_sentiment_analysis.py
 ```
 
-### Individual Approaches
-```python
-# Baseline
-from models import evaluate_baseline
-results = evaluate_baseline(test_data)
 
-# In-Context Learning
-from models import evaluate_icl
-results = evaluate_icl(test_data)
-
-# Fine-tuning
-from models import finetune_model
-model = finetune_model(train_data, val_data)
-results = evaluate_finetuned(model, test_data)
-```
 
 ## 📊 Reproduce Results
 
